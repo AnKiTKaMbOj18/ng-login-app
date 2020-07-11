@@ -1,0 +1,24 @@
+{
+  "obj": [
+    {
+      "id": 101,
+      "name": "Ankit",
+      "status": false
+    },
+    {
+      "id": 102,
+      "name": "Ivan",
+      "status": true
+    },
+    {
+      "id": 103,
+      "name": "Briana",
+      "status": false
+    },
+    {
+      "id": 104,
+      "name": "Jamie",
+      "status": true
+    }
+  ]
+}
