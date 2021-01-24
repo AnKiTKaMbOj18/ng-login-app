@@ -9,16 +9,11 @@ import { AppService, myData } from './app.service';
 export class AppComponent {
   text = 'my-app';
   superman = 'superman';
-  data: myData[];
 
   updateValue(event) {
     this.text = event.target.value;
   }
-  constructor(private myService: AppService) {}
+  constructor() {}
 
-  ngOnInit() {
-    this.myService.getData().subscribe(data => {
-      this.data = data;
-    });
-  }
+  ngOnInit() {}
 }
